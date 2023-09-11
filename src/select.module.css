@@ -1,6 +1,7 @@
 .container {
    position: relative;
-   width: 20em;
+   background-color: rgba(0, 0, 128, .2);
+   width: 20vw;
    min-height: 1.5em;
    border: .05em solid #777;
    display: flex;
@@ -9,6 +10,7 @@
    padding: .5em;
    border-radius: .25em;
    outline: none;
+   margin: auto;
  }
  
  .container:focus {
